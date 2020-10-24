@@ -38,7 +38,7 @@ A GitHub token is available by default when using actions, but you must include 
 Be sure to include the ENV variable in your job step:
 
 ```yaml
-    - uses: adwerx/pronto-ruby
+    - uses: hopin-team/pronto-ruby
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -65,7 +65,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: adwerx/pronto-ruby@v2.5
+    - uses: hopin-team/pronto-ruby@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```

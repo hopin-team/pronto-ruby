@@ -1,6 +1,6 @@
-name: Pronto Ruby
-author: jbielick@adwerx.com
-description: Your all-in-one Pronto ruby code review automation.
+name: Pronto Ruby by Hopin
+author: john.ogara@hopin.to
+description: Your all-in-one Pronto ruby code review automation. Forked by Hopin to update gems and ruby version.
 branding:
   icon: code
   color: red
@@ -23,7 +23,7 @@ inputs:
       origin/master
 runs:
   using: docker
-  image: "docker://docker.io/adwerx/pronto-ruby:3.0"
+  image: 'Dockerfile'
   args:
     - run
     - -r

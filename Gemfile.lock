@@ -263,21 +263,21 @@ PLATFORMS
 
 DEPENDENCIES
   climate_control
-  pronto (~> 0.10)
-  pronto-brakeman (~> 0.10)
-  pronto-bundler_audit (~> 0.6)
-  pronto-erb_lint (~> 0.1)
-  pronto-eslint_npm (~> 0.10)
-  pronto-fasterer (~> 0.10)
-  pronto-flay (~> 0.10)
-  pronto-poper (~> 0.10)
-  pronto-rails_best_practices (~> 0.10)
-  pronto-rails_data_schema (~> 0.1)
-  pronto-rails_schema (~> 0.10)
-  pronto-reek (~> 0.10)
-  pronto-rubocop (~> 0.10)
-  pronto-scss (~> 0.10)
-  pronto-yamllint (~> 0.1)
+  pronto
+  pronto-brakeman
+  pronto-bundler_audit
+  pronto-erb_lint
+  pronto-eslint_npm
+  pronto-fasterer
+  pronto-flay
+  pronto-poper
+  pronto-rails_best_practices
+  pronto-rails_data_schema
+  pronto-rails_schema
+  pronto-reek
+  pronto-rubocop
+  pronto-scss
+  pronto-yamllint
   pry
   rb-readline
   rspec

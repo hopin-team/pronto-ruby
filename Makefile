@@ -1,4 +1,4 @@
-name=adwerx/pronto-ruby
+name=hopin-team/pronto-ruby
 
 image:
 	docker build -f Dockerfile . -t ${name}:${TAG}
@@ -8,9 +8,6 @@ test: spec/fixtures/test.git
 
 spec/fixtures/test.git:
 	tar -zxf spec/fixtures/test.git.tar.gz
-
-# tag: image
-# 	docker tag ${name} ${name}:${TAG}
 
 push: image
 	docker push ${name}:${TAG}
