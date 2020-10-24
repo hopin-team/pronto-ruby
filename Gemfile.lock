@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:marcandre/pronto-rubocop
+  remote: https://github.com/marcandre/pronto-rubocop
   revision: 0a2f99f6298a7df585335a60bdb52cc2ea732a37
   specs:
     pronto-rubocop (0.10.0)
