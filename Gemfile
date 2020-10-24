@@ -15,7 +15,7 @@ gem 'pronto-rails_best_practices'
 gem 'pronto-rails_data_schema'
 gem 'pronto-rails_schema'
 gem 'pronto-reek'
-gem 'pronto-rubocop', git: 'git@github.com:marcandre/pronto-rubocop'
+gem 'pronto-rubocop', git: 'https://github.com/hopin-team/pronto-rubocop'
 gem 'pronto-scss'
 gem 'pronto-yamllint'
 
