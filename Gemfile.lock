@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hopin-team/pronto-rubocop
-  revision: b4c287167580cb0b836c0cf4d39664d345fa6aaa
+  revision: 116ef533b5eacf9b9d870da8b3dc77e72efe0249
   specs:
     pronto-rubocop (0.10.0)
       pronto (~> 0.10.0)
